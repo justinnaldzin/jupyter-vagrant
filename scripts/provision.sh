@@ -91,6 +91,6 @@ pip3 install kerberos
 # Error message:TTransportException: TTransportException(type=1, message="Could not start SASL: b'Error in sasl_client_start (-1) SASL(-1): generic failure: GSSAPI Error: Unspecified GSS failure.  Minor code may provide more information (No Kerberos credentials available (default cache: KEYRING:persistent:0))'")
 
 yum install krb5-workstation
-#kinit NaldzinJ@UPHS.PENNHEALTH.PRV  # obtain and cache Kerberos ticket-granting ticket
+#kinit user@domain.com  # obtain and cache Kerberos ticket-granting ticket
 # enter password
 #klist  # list cached Kerberos tickets
